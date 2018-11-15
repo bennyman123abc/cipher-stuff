@@ -39,5 +39,5 @@ def cipher(text):
         s += alphdict[c]
     return s
 
-for _ in range(0, 1):
+if __name__ == "__main__":
     main()
